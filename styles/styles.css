@@ -1,0 +1,924 @@
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto/roboto-light-webfont.eot');
+    src: url('../fonts/roboto/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto/roboto-thin-webfont.eot');
+    src: url('../fonts/roboto/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-thin-webfont.woff') format('woff'),
+         url('../fonts/roboto/roboto-thin-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue/bebasneue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue/bebasneue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ 
+
+/* MENU*/
+
+html,body {
+    background-color: #f0f0f0;
+}
+
+
+.shade{
+    width: auto;
+    height: 90px;
+    background-color: #242527;
+    opacity: 0.8;
+}
+
+.navigation {
+    width:1000px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    display: inline-block;
+    height:68px;
+    width: 165px;
+    background:url(../img/logo.png);
+    margin-top: 11px;
+}
+
+#logo:hover{
+    background-position: 0 -68px;
+   
+}
+
+#buttons li{
+    padding: 0;
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#buttons {
+        float: right;
+        margin-top: 34px;
+}
+
+.inverse {
+    text-decoration: none;
+    color:#f1f1f1;
+    font-family: robotothin,helvetica, arial,sans-serif;
+    font-size: 22px;
+    font-variant: small-caps;
+    margin-left: 15px;
+    font-weight: 400;
+}
+.inverse:hover {
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 2px;
+}
+
+.active {
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+/*FOOTER*/
+
+.footer{
+    margin-top: 50px;
+}
+
+.fcolor{
+    background-color: #dce1e6;
+    padding-bottom: 25px;
+
+}
+
+.round {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: -57px;
+    width: 114px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.contact{
+    width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+#email{
+    font-family: robotothin,helvetica, arial,sans-serif;
+    font-size: 20px;
+    color:#ad88b7;
+    text-decoration: none;
+}
+
+#email:hover{
+   color:#835da5;
+   border-bottom: 1px solid #835da5;
+   padding-bottom: 2px;
+}
+
+.sm{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 114px;
+    padding-left: 0;
+}
+
+.sm li{
+    padding: 0;
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline-block;
+}
+#in {
+    display:block;
+    height:45px;
+    width: 45px; 
+    background: url(../img/sm_st.png);
+    margin-right: 10px;
+    margin-left: 4px;
+}
+
+#in:hover {
+    background-position: 0 -45px;
+}
+
+
+#be {
+    display:block;
+    height:45px;
+    width: 45px; 
+    background: url(../img/sm_st.png);
+    background-position:-55px 0;
+    margin-right: 4px;
+}
+
+#be:hover {
+    background-position: -55px -45px;
+}
+
+
+
+
+/* ABOUT PAGE */
+
+.headerabout {
+    background-image: url('../img/about/main1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+
+    
+}
+.about{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.aboutdescription{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    color:#656565;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 0;
+
+    padding-bottom: 45px;
+    float: left; 
+}
+
+.abouttitle{
+    color:#ad88b7;
+    width: 400px;
+    font-family:robotolight, helvetica, arial, sans-serif;
+    font-size: 60px;
+    font-variant: small-caps;
+}
+
+.skills{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.design{
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.designskills {
+ width: 450px;
+
+
+}
+
+.designskills h4{
+     margin-top: 0px;
+}
+
+.designskills p {font-family: robotolight, helvetica, arial, sans-serif;
+  font-size: 18px;
+   color: #656565;
+   line-height: 2;
+}
+
+
+/*  CONTACT PAGE */
+.headercontact{
+    background-image: url('../img/contact/map.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height:1180px;
+}
+
+.box{
+    width: 420px;
+    height: 350px;
+    background-color: #ad88b7;
+    padding-bottom: 10px;
+}
+
+h5{
+  font-family: robotolight, helvetica, arial, sans-serif;
+  font-size: 38px;
+   color: #ffffff;
+   line-height: 2;
+   font-variant: small-caps;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.contacticons{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.contactinfa{
+    font-family: robotothin,helvetica, arial,sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.contactinfa:hover{
+   color:#ffffff;
+   border-bottom: 1px solid #ffffff;
+   padding-bottom: 2px;
+}
+
+.contactin{
+    padding-top: 8px;
+}
+/*PORTFOLIO PAGE*/
+
+.header{
+    background-image: url('../img/portfolio/portfolio_header.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family:robotolight, helvetica, arial, sans-serif;
+    color:#f1f1f1;
+    font-size: 102px;
+    font-variant: small-caps;
+    width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 375px;
+}
+
+
+.cell{
+    background-color: #3c4650;
+    width:485px;
+    height:300px;
+    float: left;
+    margin-bottom: 25px;
+    position: relative;
+}
+.cell .hover {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    width: 485px;
+    text-align: center;
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-variant: small-caps;
+    color: #f1f1f1;
+    font-weight: 400;
+}
+
+/*.projects:hover{
+    opacity: 0.2;
+}*/
+
+h6{
+    text-align: center;
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 28px;
+    font-variant: small-caps;
+    color: #f1f1f1;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.hover-aware .hover a {
+    text-decoration: none;
+    display: block;
+    color: #f1f1f1;
+}
+
+
+/* PROJECT PAGE */
+h2{
+    /*font-family:championhtf-welterweight, helvetica, arial, sans-serif;*/
+   font-family:bebas_neueregular, helvetica, arial, sans-serif; 
+    color:#f1f1f1;
+    font-size: 120px;
+   text-align: center;
+    font-variant: small-caps;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 145px;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+
+}
+h3{
+    font-family:robotothin, helvetica, arial, sans-serif;
+    color:#f1f1f1;
+    font-size: 28px;
+   text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;
+}
+
+.subheader{
+    background-color: #e0e0e0;
+    padding-bottom: 25px;
+    padding-top: 80px;
+    
+}
+
+.subheadercontent{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.mainimage{
+    float: right;
+}
+
+.content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
+ clear: both;
+}
+
+.left{
+    float: left;
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+.right{
+    float: right;
+ margin-right: 0;
+ margin-top: 0;
+}
+
+.content img{
+    margin-bottom: 25px;
+   /* box-shadow: 2px 2px 2px #483e54; */
+}
+
+.clear{
+    clear:both;
+}
+h4{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 28px;
+    font-variant: small-caps;
+    color: #ad88b7;
+    line-height: 8px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.pullquote {
+   font-family: robotolight, helvetica, arial, sans-serif;
+   font-style: italic;
+
+   color:#ad88b7;
+   font-size: 20px;
+   line-height: 1.6;
+   text-align: center;
+   padding-bottom: 35px;
+}
+
+
+
+/* THOUGHTS*/
+
+.thoughts{
+    background-color: #ad88b7;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.aboutthoughts {
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: robotothin, helvetica, arial, sans-serif;
+   font-style: italic;
+   font-size: 22px;
+   color: #f1f1f1;
+   line-height: 1.6;
+    
+}
+
+/* OTHER WORK */
+
+.other{
+    margin-top: 75px;
+}
+.otherrow{
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+
+.cellviolet{
+    background-color: #ad88b7;
+    width:290px;
+    height:195px;
+    float: left;
+    position: relative;
+}
+.cellviolet .hover {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 82px;
+    margin-left: 130px;
+    
+    
+}
+.seeproject{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-variant: small-caps;
+    color: #f1f1f1;
+    font-weight: 400;
+    letter-spacing: 0.045em;
+    margin-top: 0;
+    margin-left: -25px;
+
+
+}
+
+.cellviolet .hover a {
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+/*LAVAZZA*/
+
+.header1{
+    background-image: url('../img/works/lavazza/header1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;
+}
+
+.rationale1{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    color:#656565;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 370px;
+    margin-top: 15px;
+    padding-top: 52px;
+    padding-bottom: 45px;
+    float: left;
+}
+
+.lavazzamenu{
+    margin-top: 10px;
+}
+
+.lavazzahighlights{
+    width: 315px;
+}
+#lavazzatitle {
+    text-indent: 38px;
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 28px;
+    font-variant: small-caps;
+    color: #ad88b7;
+    line-height: 8px;
+    margin-bottom: 25px;
+    margin-top:10px;
+    letter-spacing: 0.05em;
+}
+
+#highlights li{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 18px;
+    color: #656565;
+    line-height: 2;
+}
+
+.content2{
+    background-color: #04a49e;
+}
+
+#lavazzamac {
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+
+}
+
+.margintop {
+    margin-top: 20px;
+}
+
+.lavazzaad{
+    margin-bottom: 25px;
+}
+
+/*AKOROC */
+
+.header2 {
+    background-image: url('../img/works/akoroc/header2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;
+    
+}
+
+
+.rationale2{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    color:#656565;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 370px;
+    margin-top: 30px;
+    float: left;
+}
+
+.akorocbranding{
+    background-image: url('../img/works/akoroc/akoroc_2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    background-size: cover;
+
+}
+
+.akoroclogo{
+    background-image: url('../img/works/akoroc/akoroc_7.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 423px;
+    background-size: cover;
+}
+
+.content3{
+        background-color: #fcf1f0;
+
+}
+
+.pullquote1 {
+   font-family: robotolight, helvetica, arial, sans-serif;
+   font-weight: 400;
+   color:#6b4e53;
+   font-size: 20px;
+   line-height: 1.6;
+   text-align: center;
+    padding-bottom: 50px;
+}
+
+/* RENT COLUMN */
+
+
+.rciphone{
+    margin-left: -200px;
+    margin-top: 25px;
+}
+
+.rcws{
+    margin-top: 36px;
+    width: 290px;
+}
+
+.rcweb{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 18px;
+    color: #656565;
+    line-height: 2;
+    width: 290px;
+
+}
+
+.rcbrand{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 18px;
+    color: #656565;
+    line-height: 2;
+    width: 500px;
+}
+.icons{
+    background-color: #f6a471;
+    padding-bottom: 25px;
+    padding-top: 75px;
+    margin-top: -75px;
+}
+
+.rcicons{
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.rclogo{
+    margin-left: auto;
+    margin-right: auto;
+    width:770px;
+    margin-bottom: 0;
+}
+
+.rccontent{
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 50px;
+    margin-top: 10px;
+ clear: both;
+    
+}
+
+.margin{
+    margin-top: 25px;
+}
+.header3 {
+    background-image: url('../img/works/rentcolumn/header_rentcolumn.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;
+    
+}
+
+.rentcolumnad{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 18px;
+    color: #656565;
+    line-height: 2;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+/*RAIN */
+
+.headerrain{
+    background-image: url('../img/works/rain/headerrain.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;
+}
+.rationalerain{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    color:#656565;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 370px;
+    margin-top: 135px;
+    float: left;
+}
+
+#magazine{
+	width:869px;
+	height:593px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#magazine .turn-page{
+	background-color:#ccc;
+	background-size:100% 100%;
+}
+
+.rsubtitle{
+    width:376px;
+}
+
+.raincontent{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    padding-bottom: 50px;
+    clear: both;
+    
+}
+
+.rightbutton {
+    display:block;
+    height: 80px;
+    width: 40px; 
+    background: url(../img/works/rain/rain_1_3.png);
+    margin-top: 257px;
+}
+
+.rightbutton:hover {
+    background-position: 0 -80px;
+}
+
+.leftbutton {
+    display:block;
+    height: 80px;
+    width: 40px; 
+    background: url(../img/works/rain/rain_1_2.png);
+    margin-top: 257px;
+}
+
+.leftbutton:hover {
+    background-position: 0 -80px;
+}
+
+/*SUGARRAYS*/
+
+ .headerboxing{
+    background-image: url('../img/works/sugarrays/headerboxing.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;}
+
+.content3{
+    background-color: #f7f7f8;
+}
+
+.content4{
+    background-color: #eeeeef;
+    
+}
+
+.rationalesugarrays{
+      font-family: robotolight, helvetica, arial, sans-serif;
+    color:#656565;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 365px;
+    margin-top: 85px;
+    float: left;
+}
+
+.sugarraysweb {
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 18px;
+    color: #656565;
+    line-height: 2;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+/*brie*/
+
+.contentbrie{
+    background-color:#f1ede8;
+}
+
+.headerbrie{
+    background-image: url('../img/works/brie/headerbrie.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;}
+    
+/*POSTER*/
+
+
+.headerposter{
+    background-image: url('../img/works/poster/headerposter.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;}
+    
+    
+/*BOOK*/
+.headerbook{
+    background-image: url('../img/works/book/headerbook.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;}
+    
+.rationalebook {
+      font-family: robotolight, helvetica, arial, sans-serif;
+    color:#656565;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 365px;
+    margin-top: 130px;
+    float: left;
+}
+    
