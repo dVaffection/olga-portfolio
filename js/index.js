@@ -1,9 +1,9 @@
 $(function () {
-    
+
     function addOpacity($img) {
         $img.css('opacity', 0.2);
     }
-    
+
     function removeOpacity($img) {
         $img.css('opacity', 1);
     }
@@ -21,27 +21,41 @@ $(function () {
             });
         }
     });
-    
+
+
     // trun.js plugin
-    
+
     $('#magazine').turn({
-            display: 'double',
-            acceleration: true,
-            gradients: !$.isTouch,
-            elevation:50,
-            when: {
-                    turned: function(e, page) {
-                            /*console.log('Current view: ', $(this).turn('view'));*/
-                    }
+        display:      'double',
+        acceleration: true,
+        gradients:    ! $.isTouch,
+        elevation:    50,
+        when:         {
+            turned: function (e, page) {
+                /*console.log('Current view: ', $(this).turn('view'));*/
             }
+        }
     });
-    
-    $('.leftbutton').on('click', function() {
+
+    $('.leftbutton_js').on('click', function () {
         $("#magazine").turn("previous");
     });
-    
-    $('.rightbutton').on('click', function() {
+
+    $('.rightbutton_js').on('click', function () {
         $("#magazine").turn("next");
+    });
+
+    $(document).keydown(function (e) {
+        // left
+        if (e.keyCode == 37) {
+            $("#magazine").turn("previous");
+            e.preventDefault();
+            return false;
+        } else if (e.keyCode == 39) {
+            $("#magazine").turn("next");
+            e.preventDefault();
+            return false;
+        }
     });
 
 });
