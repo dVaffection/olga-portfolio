@@ -257,6 +257,39 @@ h6{
     color: #f1f1f1;
 }
 
+.project_name{
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-variant: small-caps;
+    color:#ad88b7;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400;
+    text-decoration:none;
+}
+.project_category{
+    text-decoration: none;
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 13px;
+    color:#3c4650;
+    display: block;
+}
+
+.seemore{
+    text-decoration: none;
+    font-family: robotolight, helvetica, arial, sans-serif;
+    font-size: 13px;
+    color:#ad88b7;
+}
+.mobilelink{
+    margin-bottom: 30px;
+    padding-top: -20px;
+    height: 80px;
+}
+
+.mobilecell{
+    width:350px;
+}
 
 /* ABOUT PAGE */
 
@@ -1285,6 +1318,12 @@ h4{
     }
 }
 
+@media (min-width:768px){
+    .mobilelink{
+        display: none;
+    }
+}
+
 @media (max-width:768px){
     
     /*** All ***/
@@ -1330,6 +1369,10 @@ h4{
     .cell, .cell .hover{
         width:350px;
         height:216px;
+    }
+
+    .cell{
+        margin-bottom: 0px;
     }
     .header{
         margin-bottom:0px;
@@ -1893,6 +1936,9 @@ h4{
         font-size:16px;
     }
     
+    .mobilecell{
+        width:300px;
+    }
     /*** Lavazza***/
     
     .img_small, #menu{
