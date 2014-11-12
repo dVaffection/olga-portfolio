@@ -1,5 +1,5 @@
 
-@font-face {
+/*@font-face {
     font-family: 'robotolight';
     src: url('../fonts/roboto/roboto-light-webfont.eot');
     src: url('../fonts/roboto/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -35,7 +35,7 @@
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
 
 @font-face {
@@ -98,11 +98,13 @@ html,body {
 .inverse {
     text-decoration: none;
     color:#f1f1f1;
-    font-family: robotothin,helvetica, arial,sans-serif;
+    /*font-family: robotothin,helvetica, arial,sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:100;
     font-size: 22px;
     font-variant: small-caps;
     margin-left: 15px;
-    font-weight: 400;
+    /*font-weight: 400;*/
 }
 
 .inverse:hover, .active {
@@ -141,7 +143,9 @@ html,body {
 }
 
 #email{
-    font-family: robotothin,helvetica, arial,sans-serif;
+    /*font-family: robotothin,helvetica, arial,sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:100;
     font-size: 20px;
     color:#ad88b7;
     text-decoration: none;
@@ -206,7 +210,9 @@ html,body {
 }
 
 h1{
-    font-family:robotolight, helvetica, arial, sans-serif;
+    /*font-family:robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     color:#f1f1f1;
     font-size: 102px;
     font-variant: small-caps;
@@ -214,6 +220,7 @@ h1{
     margin-left: auto;
     margin-right:auto;
     margin-top: 375px;
+    text-shadow:0 4px 8px rgba(0,0,0,0.75);
 }
 .p_projects:hover{
     opacity:0.2;
@@ -233,22 +240,26 @@ h1{
     top: 120px;
     width: 485px;
     text-align: center;
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 18px;
     font-variant: small-caps;
     color: #f1f1f1;
-    font-weight: 400;
+    /*font-weight: 400;*/
 }
 
 h6{
     text-align: center;
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 28px;
     font-variant: small-caps;
     color: #f1f1f1;
     margin-bottom: 0;
     margin-top: 0;
-    font-weight: 400;
+    /*font-weight: 400;*/
 }
 
 .hover-aware .hover a {
@@ -258,18 +269,22 @@ h6{
 }
 
 .project_name{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 24px;
     font-variant: small-caps;
     color:#ad88b7;
     margin-bottom: 0;
     margin-top: 0;
-    font-weight: 400;
+    /*font-weight: 400;*/
     text-decoration:none;
 }
 .project_category{
     text-decoration: none;
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 13px;
     color:#3c4650;
     display: block;
@@ -277,7 +292,9 @@ h6{
 
 .seemore{
     text-decoration: none;
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 13px;
     color:#ad88b7;
 }
@@ -310,7 +327,9 @@ h6{
 }
 
 .aboutdescription{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     color:#656565;
     font-size: 16px;
     line-height: 1.6;
@@ -323,7 +342,9 @@ h6{
 .abouttitle{
     color:#ad88b7;
     width: 400px;
-    font-family:robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 60px;
     font-variant: small-caps;
 }
@@ -348,7 +369,10 @@ h6{
      margin-top: 0px;
 }
 
-.designskills p {font-family: robotolight, helvetica, arial, sans-serif;
+.designskills p {
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
   font-size: 18px;
    color: #656565;
    line-height: 2;
@@ -372,7 +396,9 @@ h6{
 }
 
 h5{
-  font-family: robotolight, helvetica, arial, sans-serif;
+     /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
   font-size: 38px;
    color: #ffffff;
    line-height: 2;
@@ -388,7 +414,9 @@ h5{
 
 
 .contactinfa{
-    font-family: robotothin,helvetica, arial,sans-serif;
+     /*font-family: robotothin, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:100;
     font-size: 20px;
     color:#ffffff;
     text-decoration: none;
@@ -421,20 +449,26 @@ h2{
     margin-bottom: 0;
     font-weight: 600;
     letter-spacing: 0.03em;
+    text-shadow:0 4px 8px rgba(0,0,0,0.75);
 }
 
 h3{
-    font-family:robotothin, helvetica, arial, sans-serif;
+        /*font-family: robotothin, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     color:#f1f1f1;
     font-size: 28px;
    text-align: center;
     margin-left: auto;
     margin-right:auto;
     margin-top: 0;
+    text-shadow:0 4px 8px rgba(0,0,0,0.75);
 }
 
 h4{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotothin, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 28px;
     font-variant: small-caps;
     color: #ad88b7;
@@ -444,7 +478,9 @@ h4{
 }
 
 .pullquote {
-   font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
    font-style: italic;
    color:#ad88b7;
    font-size: 20px;
@@ -515,7 +551,9 @@ h4{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-family: robotothin, helvetica, arial, sans-serif;
+       /*font-family: robotothin, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:100;
    font-style: italic;
    font-size: 22px;
    color: #f1f1f1;
@@ -553,11 +591,13 @@ h4{
     
 }
 .seeproject{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 16px;
     font-variant: small-caps;
     color: #f1f1f1;
-    font-weight: 400;
+   /* font-weight: 400;*/
     letter-spacing: 0.045em;
     margin-top: 0;
     margin-left: -25px;
@@ -585,7 +625,9 @@ h4{
 }
 
 .rationale1{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     color:#656565;
     font-size: 16px;
     line-height: 1.6;
@@ -605,7 +647,9 @@ h4{
 }
 #lavazzatitle {
     text-indent: 38px;
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 28px;
     font-variant: small-caps;
     color: #ad88b7;
@@ -616,7 +660,9 @@ h4{
 }
 
 #highlights li{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 18px;
     color: #656565;
     line-height: 2;
@@ -652,7 +698,9 @@ h4{
 
 
 .rationale2{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     color:#656565;
     font-size: 16px;
     line-height: 1.6;
@@ -686,8 +734,10 @@ h4{
 }
 
 .pullquote1 {
-   font-family: robotolight, helvetica, arial, sans-serif;
-   font-weight: 400;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
+   /*font-weight: 400;*/
    color:#6b4e53;
    font-size: 20px;
    line-height: 1.6;
@@ -709,7 +759,9 @@ h4{
 }
 
 .rcweb{
-    font-family: robotolight, helvetica, arial, sans-serif;
+     /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 18px;
     color: #656565;
     line-height: 2;
@@ -718,7 +770,9 @@ h4{
 }
 
 .rcbrand{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 18px;
     color: #656565;
     line-height: 2;
@@ -770,7 +824,9 @@ h4{
 }
 
 .rentcolumnad{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 18px;
     color: #656565;
     line-height: 2;
@@ -792,7 +848,9 @@ h4{
     background-size: cover;
 }
 .rationalerain{
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     color:#656565;
     font-size: 16px;
     line-height: 1.6;
@@ -875,7 +933,9 @@ h4{
 }
 
 .rationalesugarrays{
-      font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     color:#656565;
     font-size: 16px;
     line-height: 1.6;
@@ -885,7 +945,9 @@ h4{
 }
 
 .sugarraysweb {
-    font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     font-size: 18px;
     color: #656565;
     line-height: 2;
@@ -948,7 +1010,9 @@ h4{
     background-size: cover;}
     
 .rationalebook {
-      font-family: robotolight, helvetica, arial, sans-serif;
+    /*font-family: robotolight, helvetica, arial, sans-serif;*/
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
     color:#656565;
     font-size: 16px;
     line-height: 1.6;
