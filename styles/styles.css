@@ -1023,10 +1023,48 @@ h4{
 #mainimage_book{
     width:360px;
 }
+
+/* WEB TEMPLATES*/
+
+.header-restaurant-theme{
+    background-image: url('../img/works/themes/header.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;
+}
     
-    
-    
-    
+.webtemplate{
+        margin-right:auto;
+        margin-left:auto;
+        float:none;
+}
+
+.webtemplate-rationale{
+    font-family:roboto, helvetica, arial, sans-serif;
+    font-weight:300;
+    color:#656565;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 450px;
+    margin-top: 30px;
+}
+
+
+.pagename{
+    padding-top:50px;
+    padding-bottom:20px;
+    }
+ 
+.header-hairsalon-theme{
+    background-image: url('../img/works/themes/header2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    background-size: cover;
+}
     
     
 /*********************************
@@ -1091,7 +1129,7 @@ h4{
         width:960px;
     }
     
-    .header, .header1, .header2, .header3, .header4, .header5, .headerbook, .headerposter, .headerrain, .headerabout{
+    .header, .header1, .header2, .header3, .header4, .header5, .headerbook, .headerposter, .headerrain, .headerabout, .header-hairsalon-theme, .header-restaurant-theme{
         height:500px;
     }
     
@@ -1414,7 +1452,7 @@ h4{
     .mainimage {
          width:400px;
     }
-    .rationale1, .rationale2, .rationalesugarrays, .rationalebook, .rationalerain{
+    .rationale1, .rationale2, .rationalesugarrays, .rationalebook, .rationalerain, .webtemplate-rationale{
         font-size:14px;
         width:300px;
         padding:0;
@@ -1628,7 +1666,7 @@ h4{
     #links{
         margin-right: 17%;
     }
-    .header, .header1, .header2, .header3, .header4, .header5, .headerbook, .headerposter, .headerrain, .headerabout{
+    .header, .header1, .header2, .header3, .header4, .header5, .headerbook, .headerposter, .headerrain, .headerabout, .header-hairsalon-theme, .header-restaurant-theme{
         height:320px;
     }
     h1{
@@ -1648,7 +1686,7 @@ h4{
     .subheader{
         padding-top:40px;
     }
-    .rationale1, .rationale2, .rationalesugarrays, .rationalebook, .rationalerain {
+    .rationale1, .rationale2, .rationalesugarrays, .rationalebook, .rationalerain, .webtemplate-rationale {
         font-size:14px;
         width:350px;
         padding-top:0;
@@ -1962,7 +2000,7 @@ h4{
         margin-right: 12%;
         padding-left: 0;
     }
-    .header, .header1, .header2, .header3, .header4, .header5, .headerbook, .headerposter, .headerrain ,.headerabout{
+    .header, .header1, .header2, .header3, .header4, .header5, .headerbook, .headerposter, .headerrain ,.headerabout, .header-hairsalon-theme, .header-restaurant-theme{
         height:480px;
     }
     h1 {
@@ -1975,7 +2013,7 @@ h4{
     .subheader{
         padding-top:40px;
     }
-    .rationale1, .rationale2, .rationalesugarrays, .rationalebook, .rationalerain{
+    .rationale1, .rationale2, .rationalesugarrays, .rationalebook, .rationalerain, .webtemplate-rationale{
         font-size:14px;
         width:280px;
         padding-top:0;
