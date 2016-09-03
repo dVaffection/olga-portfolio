@@ -81,6 +81,10 @@ label {
    font-size: 10px;
    letter-spacing: 0.1em; }
    
+  @media(max-width:800px){
+	  .port-item-bodycopy-sm p{
+	  font-size:12px;}}
+   
  
 /* Letter spacing */
 .letter-spacing-03 {
@@ -246,6 +250,11 @@ ul.list-o {
 	width:220px;
 	padding-top:60px;
 	margin-left:35px;}
+	
+@media(max-width:1300px){
+	#logo01{
+		width:120px;
+		padding-top:20px;}}
 	
 
 	  
@@ -837,7 +846,7 @@ figure.effect-goliath:hover p {
 .navbar .navbar-nav > li > a {
   color: #404040; }
   .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-    color: #1f1f1f; }
+    color: rgba(31,31,31,0.5); }
 .navbar .navbar-toggle .icon-bar {
   background-color: #303030; }
 
@@ -871,7 +880,7 @@ figure.effect-goliath:hover p {
   font-weight: 700; }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-  background-color: transparent; }
+  background-color: transparent;}
 
 .dropdown-menu {
   border-radius: 0px;
@@ -1037,6 +1046,11 @@ figure.effect-goliath:hover p {
   color: #fff;
   padding: 20px 40px;
   width: 300px; }
+  
+ @media(max-width:1300px){
+	 .sidebar-left .side-widget{
+		 padding:0 40px 10px 40px;}}
+ 
   .sidebar-left .side-widget p {
     color: rgba(255, 255, 255, 0.6); }
   .sidebar-left .side-widget input {
@@ -1050,6 +1064,12 @@ figure.effect-goliath:hover p {
   bottom: 0;
   padding: 60px;
   color: rgba(255, 255, 255, 0.6); }
+  
+ @media(max-width:1300px){
+	.sidebar-left .bottom-widget {
+		padding:0 0 10px 40px;} }
+ 
+ 
   .sidebar-left .bottom-widget a i {
     font-size: 21px; }
   .sidebar-left .bottom-widget a:hover i {
@@ -1668,7 +1688,7 @@ progress::-webkit-progress-value {
 ******************/
 .scroll-btn, .scroll-btn-dark{
 	position:absolute;
-	top:90%;
+	top:80%;
 	left:49%;}
 	
 		
@@ -1900,6 +1920,10 @@ p.port-item-description {
 		Birthdays
 *************************/
 
+@media(min-width:1300px){
+#port-item-birthdays-introscreen{
+	padding-top:150px;}}
+
 #portfolio-item-birthday-splashscreen{
 	padding-right:30px;}
 
@@ -1913,10 +1937,12 @@ p.port-item-description {
 /*#port-item-birthdays-calendar-img{
 	margin-top:-150px;}*/
 	
+
+
 @media(min-width:800px){
 #port-item-birthdays-calendar-description{
 	position:relative;
-	padding-top:100px;}}
+	padding-top:50px;}}
 	
 	
 @media(max-width:500px){
@@ -2067,7 +2093,7 @@ p.port-item-description {
 	
 @media(max-width:800px){
 #portfolio-item-privacyshield-logo{
-	margin-top:170px;}}
+	margin-top:85px;}}
 	
 /******************************
 		Urban Boxing
