@@ -75,16 +75,44 @@ label {
   letter-spacing: 0.15em; 
   font-size: 14px;
   font-weight: 600; } 
+
+.sm-numerals{
+  font-size:0.8em;
+}
   
 .small-caps{
    text-transform: uppercase;
    font-size: 10px;
    letter-spacing: 0.1em; }
+
+.nobrake{
+white-space:nowrap;}
    
   @media(max-width:800px){
 	  .port-item-bodycopy-sm p{
 	  font-size:12px;}}
+	  
+.lg-brake,
+.md-brake,
+.sm-brake,
+.xs-brake{
+	display:block;}	
+	  
+@media(max-width:1200px){
+		 .lg-brake{
+			 display:none;}}
+			 
+@media(max-width:1024px) and (min-width:1280px){
+		 .md-brake{
+			 display:none;}}
    
+ @media(min-width:1024px){
+		 .sm-brake{
+			 display:none;}}  
+			 
+ @media(min-width:500px){
+		 .xs-brake{
+			 display:none;}} 
  
 /* Letter spacing */
 .letter-spacing-03 {
@@ -156,14 +184,22 @@ a {
   text-decoration: none;
   color: #303030; }
   a:hover {
-    color: #fff; }
+    color: #1f1f1f }
 	a:active{
-		color:#303030;}
+		color:#1f1f1f;}
+	a:visited{
+		color:#1f1f1f;}
   a:focus {
     outline: none; }
   a:hover, a:focus {
     text-decoration: none; }
-
+	
+.port-item-descriptiom a:hover,
+	.port-item-descriptiom a:focus,
+	.port-item-descriptiom a:active{
+		color:#f1f1f1;}
+		
+		
 i {
   color: #8e8e8e; }
 
@@ -191,7 +227,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ul {
   padding-left: 0;
   list-style: none;
-  margin-left: 0px; }
+  margin-left: 0px; 
+  margin-bottom:0px;}
   ul li {
     padding: 0px; }
     ul li a {
@@ -231,9 +268,41 @@ ul.list-o {
 	border-radius:2px;}
 	
 .btn-default:hover,
-.btn-default:active{
+.btn-default:active,
+.btn-default:focus{
 	background-color:#222222;
 	color:#ececec;}
+	
+.btn-default a:hover,
+.btn-default a:active,
+.btn-default a:focus{
+	color:#ececec;}
+	
+button:hover{
+	color:#ececec;}
+	
+a.new-btn{
+	border:1px solid #303030;
+	background-color:rgba(0,0,0,0);
+	color: #303030;
+    font: 14px/1.7 'Libre Baskerville', serif;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+	padding-top:10px;
+	padding-bottom:10px;
+	display:block;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:2px;
+	text-align:center;
+	letter-spacing:1px;}
+
+a.new-btn:hover,
+a.new-btn:active,
+a.new-btn:focus{
+	background-color:#303030;
+	color:#ececec;}	
 	
 .logo img{
 	width:110px;
@@ -251,7 +320,7 @@ ul.list-o {
 	padding-top:60px;
 	margin-left:35px;}
 	
-@media(max-width:1300px){
+@media(max-width:1500px){
 	#logo01{
 		width:120px;
 		padding-top:20px;}}
@@ -272,8 +341,9 @@ ul.list-o {
 .padding-side-60 {
   padding: 0 60px; }
   
+@media(min-width:500px){
 .padding-left-17{
-	padding-left:17px;}
+	padding-left:17px;}}
 	
 .padding-left-20{
 	padding-left:20px;}
@@ -305,6 +375,10 @@ ul.list-o {
 
 .e-divider-5 {
   height: 50px; }
+ 
+ @media(min-width:1400px){
+	.e-divider-5-xlg {
+  height: 50px; } }
 
 .e-divider-6 {
   height: 60px; }
@@ -769,9 +843,10 @@ figure.effect-goliath:hover p {
   
  /*Header and navigation*/
 
+
 .cbp-af-header {
-  position: fixed;
-  top: 0;
+  
+ top: 0;
   left: 0;
   width: 100%;
   background: transparent;
@@ -782,6 +857,11 @@ figure.effect-goliath:hover p {
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   -ms-transition: all 0.35s ease-in-out; }
+  
+  @media(min-width:800px){
+	 .cbp-af-header {
+  position: fixed;} }
+  
   .cbp-af-header .cbp-af-inner {
     margin: 0 auto; }
   .cbp-af-header h1, .cbp-af-header nav {
@@ -1006,7 +1086,7 @@ figure.effect-goliath:hover p {
   .sidebar-left .sidebar-nav > .sidebar-brand {
     text-align: center;
     text-indent: 0;
-    width: 300px; }
+    width: 320px; }
     .sidebar-left .sidebar-nav > .sidebar-brand a {
       font-size: 32px;
       margin-top: 39px;
@@ -1366,11 +1446,20 @@ padding-left:0;}
 .center{
 	text-align:center;}
 	
+.center-left{
+	text-align:center;}
+	
+@media(max-width:500px){
+	.center-left{
+	text-align:left;}}
+	
+		
 @media(min-width:480px){
 .line-decoration{
 	border-left:2px solid #ececec;
 	padding-left:60px;
-	margin-left:60px;}}
+	margin-left:60px;
+	padding-right:60px;}}
 	
 .absolute-center.is-responsive {
   width: 60%;
@@ -1517,17 +1606,20 @@ progress::-webkit-progress-value {
   
   
   #about-me,
-  #about-skills{
+  #about-skills,
+  #about-contact,
+  #about-resume{
 	  background-color:#fff;}
 	  
 
   @media(max-width:800px){
-  #about-skills{
+  #about-skills,
+  #about-contact{
 	  padding-left:20px;}}
 	  
   img#about-me-logo{
 	  width:50%;
-	  padding-top:44%;}
+	  padding-top:33%;}
 	  
 @media(max-width:1200px){
 	img#about-me-logo{
@@ -1536,7 +1628,7 @@ progress::-webkit-progress-value {
 	  
 @media(max-width:800px){
 	img#about-me-logo{
-	  padding-top:100%;}}
+	  padding-top:80%;}}
 	  
 	@media(max-width:500px){
 	img#about-me-logo{
@@ -1580,6 +1672,10 @@ progress::-webkit-progress-value {
 	padding-left:0px;
 	padding-bottom:20px;
 	paddin-right:20px;}
+	
+#about-contact p,
+#about-myworld p{
+	padding-top:0px;}
 	
 .about-hobby{
 	background-color:#222222;
@@ -1726,7 +1822,7 @@ p.port-item-description {
  @media(max-device-width:1024px){
 	 p.port-item-description,
 	 .port-item-description-list li{
-		 font-size:12px;}
+		 font-size:13px;}
 	 }
 
 
@@ -1819,6 +1915,10 @@ p.port-item-description {
 	 background: url("../images/portfolio-paintshield/portfolio-paintshield-hero.jpg") no-repeat center bottom;
   background-size: cover; }
   
+  @media(max-width:500px){
+	  #portfolio-paintshield-hero-image{
+		  min-height:90vh;}}
+  
   #portfolio-magpies-brand-hero-image {
 	background: url("../images/portfolio-magpies-brand/portfolio-magpies-brand-hero.jpg") no-repeat center center;
   background-size: cover; }
@@ -1826,8 +1926,8 @@ p.port-item-description {
    @media(max-width:500px){
 	 #portfolio-magpies-brand-hero-image{
 		 background-size: 600px;
-		 margin-top:90px;
-		 min-height:60vh;  }} 
+		 background-color:#fff;
+		 min-height:90vh;  }} 
 		 
 #portfolio-privacyshield-hero-image{
 	background: url("../images/portfolio-privacyshield/portfolio-privacyshield-hero.jpg") no-repeat center center;
@@ -1839,9 +1939,9 @@ p.port-item-description {
   
   @media(max-width:500px){
 	 #portfolio-book-30-hero-image{
-		 background-size: 600px;
-		 margin-top:90px;
-		 min-height:60vh;  }} 
+		 /*background-size: 600px;
+		 margin-top:90px;*/
+		 min-height:87vh;  }} 
 		 
 #portfolio-urbanboxing-hero-image {
 	 background: url("../images/portfolio-urbanboxing/portfolio-urbanboxing-hero.jpg") no-repeat center center;
@@ -1933,9 +2033,14 @@ p.port-item-description {
 #port-item-birthdays-calendar-img{
 	background: url("../images/portfolio-birthdays/portfolio-birthdays-03.png") no-repeat top center;
     background-size: cover; 
-	padding-bottom:52%;}
+	padding-bottom:52%;
+	margin-top:-2px;}
 /*#port-item-birthdays-calendar-img{
 	margin-top:-150px;}*/
+	
+@media(max-width:1200px){
+	#port-item-birthdays-calendar-img{
+	padding-bottom:90%;}}
 	
 
 
@@ -2091,9 +2196,9 @@ p.port-item-description {
 	text-align:center;
 	margin-right:0px;}}
 	
-@media(max-width:800px){
+/*@media(max-width:800px){
 #portfolio-item-privacyshield-logo{
-	margin-top:85px;}}
+	margin-top:85px;}}*/
 	
 /******************************
 		Urban Boxing
