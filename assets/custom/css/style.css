@@ -37,7 +37,7 @@ line-height:20px; }
 
 /* Regular font */
 .font-regular-normal {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville', serif;.menbu
   font-weight: 400;
   font-style: normal; }
 
@@ -182,9 +182,9 @@ body {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: #303030; }
+  color: rgb(48,48,48); }
   a:hover {
-    color: #1f1f1f }
+    color: rgba(48,48,48, 0.8) }
 	a:active{
 		color:#1f1f1f;}
 	a:visited{
@@ -193,6 +193,22 @@ a {
     outline: none; }
   a:hover, a:focus {
     text-decoration: none; }
+	
+a.link-inverse{
+	  cursor: pointer;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6); }
+  a.link-inverse:hover {
+    color: rgba(255, 255, 255, 0.8); }
+	a.link-inverse:active{
+		color:rgba(255, 255, 255, 0.8); }
+	a.link-inverse:visited{
+		color:rgba(255, 255, 255, 0.8); }
+  a.link-inverse:focus {
+    outline: none; }
+  a.link-inverse:hover, a.link-inverse:focus {
+    text-decoration: none; }
+
 	
 .port-item-descriptiom a:hover,
 	.port-item-descriptiom a:focus,
@@ -939,10 +955,16 @@ figure.effect-goliath:hover p {
   .navbar.header-light .navbar-nav > li > a:focus {
     color: #fff; }
 .navbar.header-light .navbar-toggle .icon-bar {
-  background-color: #fff; }
+  background-color: #fff; } 
 
 .cbp-af-header.cbp-af-header-shrink {
-  background: #fff; }
+  background: #fff;}
+  
+  @media(max-width:800px){
+	.cbp-af-header.cbp-af-header-shrink {
+		position:relative;
+	 z-index:1;}}
+  
   .cbp-af-header.cbp-af-header-shrink h1 a {
     color: #303030; }
   .cbp-af-header.cbp-af-header-shrink .navbar-nav > li > a {
@@ -1036,7 +1058,8 @@ figure.effect-goliath:hover p {
  .menu{
 	 float:right;
 	 padding-right:40px;
-	 padding-top:25px;} 
+	 padding-top:25px;}
+	
 	 
 @media(max-width:500px){
 	.menu{
@@ -1587,7 +1610,8 @@ progress::-webkit-progress-value {
    @media(max-width:500px){
 	 #home-hero-image{  
   background: url("../images/index/hero_xs.jpg") no-repeat center center;
-  background-size: cover; }} 
+  /*background-size: cover;*/
+  margin-top:-55px; }} 
   
   
    #about-hero-image{  
@@ -1602,8 +1626,8 @@ progress::-webkit-progress-value {
    @media(max-width:500px){
 	 #about-hero-image{  
   background: url("../images/about/hero_xs.jpg") no-repeat center center;
-  background-size: cover; }} 
-  
+ /*background-size: cover;*/
+  margin-top:-55px; }} 
   
   #about-me,
   #about-skills,
@@ -1895,11 +1919,13 @@ p.port-item-description {
   
 #portfolio-drj-hero-image{
   background: url("../images/portfolio-drj/portfolio-drj-hero.jpg") no-repeat center center;
-  background-size: cover; }
+  background-size: cover; 
+  margin-top:-55px;}
   
 #portfolio-magpies-web-hero-image{
 	background: url("../images/portfolio-magpies-web/portfolio-magpies-web-hero.jpg") no-repeat center center;
-  background-size: cover; }
+  background-size: cover; 
+  margin-top:-55px;}
   
  @media(max-width:500px){
 	 #portfolio-magpies-web-hero-image{
@@ -1909,11 +1935,13 @@ p.port-item-description {
   
 #portfolio-birthdays-hero-image{
 	background: url("../images/portfolio-birthdays/portfolio-birthdays-hero.jpg") no-repeat center center;
-  background-size: cover; }
+   background-size: cover; 
+  margin-top:-55px;}
   
  #portfolio-paintshield-hero-image{
 	 background: url("../images/portfolio-paintshield/portfolio-paintshield-hero.jpg") no-repeat center bottom;
-  background-size: cover; }
+   background-size: cover; 
+  margin-top:-55px;}
   
   @media(max-width:500px){
 	  #portfolio-paintshield-hero-image{
@@ -1921,7 +1949,8 @@ p.port-item-description {
   
   #portfolio-magpies-brand-hero-image {
 	background: url("../images/portfolio-magpies-brand/portfolio-magpies-brand-hero.jpg") no-repeat center center;
-  background-size: cover; }
+    background-size: cover; 
+  margin-top:-55px;}
   
    @media(max-width:500px){
 	 #portfolio-magpies-brand-hero-image{
@@ -1931,11 +1960,13 @@ p.port-item-description {
 		 
 #portfolio-privacyshield-hero-image{
 	background: url("../images/portfolio-privacyshield/portfolio-privacyshield-hero.jpg") no-repeat center center;
-  background-size: cover; }
+  background-size: cover; 
+  margin-top:-55px;}
   
  #portfolio-book-30-hero-image{
 	 background: url("../images/portfolio-book-30/portfolio-book-30-hero.jpg") no-repeat center center;
-  background-size: cover; }
+   background-size: cover; 
+  margin-top:-55px;}
   
   @media(max-width:500px){
 	 #portfolio-book-30-hero-image{
@@ -1945,7 +1976,8 @@ p.port-item-description {
 		 
 #portfolio-urbanboxing-hero-image {
 	 background: url("../images/portfolio-urbanboxing/portfolio-urbanboxing-hero.jpg") no-repeat center center;
-  background-size: cover; }
+   background-size: cover; 
+  margin-top:-55px;}
 
 /****************
 		Dr J
